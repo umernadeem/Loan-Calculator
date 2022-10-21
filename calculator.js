@@ -25,7 +25,7 @@ function setupIntialValues() {
   let amountUI = document.getElementById("loan-amount");
   amountUI.value = values.amount;
   let yearsUI = document.getElementById("loan-years");
-  yearsUI.value = value.years;
+  yearsUI.value = values.years;
   let rateUI = document.getElementById("loan-rate");
   rateUI.value = values.rate;
   update();
